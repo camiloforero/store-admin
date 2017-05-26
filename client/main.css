@@ -1,1 +1,59 @@
 /* CSS declarations go here */
+
+.dashboard-pane .dashboard-pane-title {
+  font-family: 'Lato';
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.dashboard-pane .dashboard-pane-value {
+  font-family: 'Lato';
+  font-size: 3em;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.registradora-results {
+  font-family: 'Lato';
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.registradora-list button {
+  height:25px;
+  width:25px;
+  padding:2px;
+  background-color: transparent;
+  border-radius:0px;
+  border-width:0px;
+}
+
+.registradora-list button:hover {
+  background-color: black;
+  color:white;
+  /*font-size:1.1em
+  */
+}
+
+button.paper-button {
+  background-color: transparent;
+  border-radius:0px;
+  border-width:1px;
+  padding:10px;
+  border-color: black;
+  border-style: solid;
+  font-family: 'Roboto', 'Noto', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+button.paper-button:hover {
+  background-color: black;
+  color:white;
+}
+
+.panel-button:hover {
+  cursor:pointer;
+  background-color: lightgrey;
+}
