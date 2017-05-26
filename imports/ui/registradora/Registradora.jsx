@@ -25,9 +25,9 @@ export default class Registradora extends Component {
     ev.preventDefault();
     if(this.state.selected_product) {
       new_product = this.state.selected_product
-      new_product['cantidad'] = this.state.cantidad_producto
+      new_product['cantidad'] = parseInt(this.state.cantidad_producto)
       console.log(new_product)
-      this.setState((state) => ({items : state.items.concat(new_product), selected_product:null}))
+      this.setState((state) => ({items : state.items.concat(new_product), selected_product:null, cantidad_producto:null}))
     }
     else {
       alert('Por favor seleccione un producto')
